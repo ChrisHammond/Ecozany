@@ -1,0 +1,446 @@
+/*=====================================================================*/
+/*     		     Cascading Style Sheet for AMI Skins	               */
+/*                     created by t-worx                               */
+/*                                                                     */
+/*                    http://www.t-worx.com                            */
+/*                      tracyw@t-worx.com                              */
+/*=====================================================================*/
+
+/* Skin BG Color and Content Alignament */
+body, html { padding:0px; margin:0px;background: #FFFFFF;}
+
+/* Skin BG Color and Content Alignament */
+.BGTable { /* Alignament MUST be defined cross-browser compatibility at Text-align*/
+	width: 100%;height: 100%;background:url(images/bg.gif) 0 0 repeat-x #FFFFFF;padding:0px 0px 0px 0px;margin:0px;text-align:center;}
+
+/* Width of Skin - Applied to underlying table with minimum width applied */
+.MainTable {width:941px;background:none;margin:auto;text-align: left!important;}
+div { padding:0px; margin:0px;}
+/*ControlPanel*/ 
+.ControlPanel { margin:auto!important; width:876px;}
+/*=====================================================================*/
+/* Skin Layout styles                                                  */
+/*=====================================================================*/
+/*STYLES FOR SKIN BACKGROUND IMAGES*/
+/*Style for TopMain*/	 			  .TopMain {background:url(images/HeaderTop.gif) left top no-repeat; margin:0 auto; width:941px; position:relative;}
+/*Style for HeaderMain*/ 			  .HeaderMain {overflow:hidden; width:941px; margin:0px auto;}
+/*Style for HeaderCenter*/ 			  .HeaderCenter {background:#FFFFFF; overflow:hidden;}
+/*Style for HeaderMainIP*/ 			  .HeaderMainIP {background: url(images/HeaderBgIP.gif) left top repeat-x; overflow:hidden;}
+/*Style for HeaderCenterIP*/		  .HeaderCenterIP {background:url(images/HeaderCenterIP.png) center top repeat-x;border-bottom:1px solid #0e4881;}
+/*Style for HeaderBottomMain*/ 		  .HeaderBottomMain { margin:0px 0px; padding:8px 0px; background:url(images/HeaderBottomBg.gif) left top repeat-x #04598f; border:1px solid #0f6094;}
+/*Style for MiddleMain*/ 			  .MiddleMain {width:941px; overflow:hidden;padding:15px 0px 10px 0px; margin:0 auto; background:#FFFFFF;}
+/*Style for MiddleMain*/ 			  .MiddleMainIP {overflow:hidden;padding:0px 0px 10px 0px; margin:35px 0px 0px 0px;background:#FFFFFF; }
+
+/*Style for ContentMainIP */  	  	  .ContentMainIP {padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+/*Style for ContentMain */  	  	  .ContentMain {padding:0px 30px 50px 30px;}
+/*Style for FooterMain*/ 			  .FooterMain { width:893px; background:url(images/FooterTop.gif) left top repeat-x #F3F9C7; margin:0px auto 20px; padding:20px 0px 20px 0px; overflow:hidden; text-align:left; position:relative;}
+/*Style for FooterMainBottom*/ 		 .FooterBottom { width:893px; background:url(images/FooterBottom.gif) left top repeat-x #F3F9C7; margin:0px auto; padding:0px 0px 0px 0px; overflow:hidden; text-align:left; height:3px; position:absolute; left:0;
+bottom:0}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Style for Logo Pane*/ 			  .LogoPane {float:left; width:250px; padding:0px 0px; margin:28px 0px 10px 20px; height:53px; overflow:hidden;}
+/*Style for TopRight Pane*/ 		  .TopRightPane {float:right; width:450px; padding:0px 0px; margin:33px 0px 0px 0px; overflow:hidden;}
+/*Style for Nav PaneMain*/ 		      .NavPaneMain { margin:0px 30px; padding:0px 0px 0px 0px; height:38px; position:relative; z-index:11;} .NavPane li{ list-style:none!important;}
+/*Style for Nav Pane*/ 			      .NavPane{ margin:0px 0px 0px 0px; padding:7px 0px 0px 0px; width:941px; height:26px; background:#8AAB41; clear:both;}
+/*Style for NavLeft Pane*/ 		      .NavLeft{ margin:-21px 0px 0px -21px; padding:0px 0px 0px 0px; width:21px; height:47px; background:url(images/NavigationLeft.gif) 0 0 no-repeat; float:left;}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*STYLES FOR CONTENT PANES*/
+/*Style for HeaderTopBgPane */  	  .HeaderTopBg { padding:30px 20px 0px 0px; margin:0px auto; width:921px; height:20px; background:url(images/HeaderTop.jpg) 0 0 no-repeat; overflow:hidden; text-align:right; color:#ffffff !important; font-size:12px !important; font-weight:bold!important;}
+/*Style for HeaderTopBgPane */  	  .TopMain span.bg{ display:block; background:url(images/leaves.gif) 0 0 no-repeat; width:294px; height:68px; left:-7px; top:-50px; position:absolute;}
+/*Style for HeaderLeftPane */  		  .HeaderContentPane { padding:0px 0px 0px 0px; margin:5px 0px 0px 8px; width:926px; overflow:hidden;}
+/*Style for HeaderRightPane */ 		  .HeaderRightPane { margin:40px 0px 10px 0px; padding:0px 0px 0px 0px; float:right; width:510px; float:right; overflow:hidden;}
+/*Style for HeaderBottomLeftPane */   .HeaderBottomLeftPane { padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; float:right; width:355px; float:left; overflow:hidden;}
+/*Style for HeaderBottomRightPane*/   .HeaderBottomRightPane { margin:3px 0px 3px 0px; padding:0px 0px 0px 0px; float:right; width:565px; float:right; overflow:hidden;}
+/*Style for HeaderLeftPaneIP */ 	  .HeaderLeftPaneIP { padding:0px 0px 0px 0px; margin:10px 10px 0px 0px; float:right; width:355px; float:left; overflow:hidden;}
+/*Style for HeaderRightPaneIP */	  .HeaderRightPaneIP { margin:25px 30px 25px 0px; padding:0px 0px 0px 0px; float:right; width:550px; float:right; overflow:hidden;} .HeaderRightPaneIP h1{ padding:0px; margin:0px; color:#ffffff; font-size:35px; text-align:right; font-family:"FuturaBT", "Trebuchet MS"; font-weight:normal;}
+/*Style for ContentPane */  	  	  .ContentPane { padding:0px 0px 0px 0px; margin:0px 5px 5px 5px;overflow:hidden;}
+
+/*Style for LeftPane */  	  		  .LeftPane {padding:0px; margin:0px 0px 5px 0px; float:left; width:220px; overflow:hidden;}
+/*Style for RightPane */  	  		  .RightPane {padding:0px; margin:0px 0px 5px 0px; width:220px; float:right; overflow:hidden;}
+/*Style for CenterPane */    		  .CenterPane { padding:0px 0px 0px 0px; width:478px; float:left;  margin:0px 0px 5px 22px; overflow:hidden;}
+
+/*Style for LeftPane1 */  	  		  .LeftPane1 {padding:0px; margin:0px 0px 5px 0px; float:left; width:220px; overflow:hidden;}
+/*Style for RightPane1 */  	  		  .RightPane1 {padding:0px; margin:0px 0px 5px 0px; width:640px; float:right; overflow:hidden;}
+/*Style for LeftPane2 */  	  		  .LeftPane2 {padding:0px; margin:0px 0px 5px 0px; float:left; width:640px; overflow:hidden;}
+/*Style for RightPane2*/  	  		  .RightPane2 {padding:0px; margin:0px 0px 5px 0px; width:220px; float:right; overflow:hidden;}
+
+/*Style for MiddlePane1 */  	  	  .MiddlePane1 {padding:0px; margin:0px 40px 5px 0px; float:left; width:244px; overflow:hidden;}
+/*Style for MiddlePane1 */  	  	  .MiddlePane2 {padding:0px; margin:0px 30px 5px 0px; float:left; width:280px; overflow:hidden;}
+/*Style for MiddlePane1 */  	  	  .MiddlePane3 {padding:0px; margin:0px 0px 5px 0px; float:left; width:280px; overflow:hidden;}
+
+
+/*Style for FooterLeftPane */  		  .FooterLeftPane { margin:0px 0px 0px 0px; padding:0px 0px 0px 30px; float:left; width:590px; font-size:11px; line-height:13px;  overflow:hidden; }
+/*Style for FooterRightPane*/ 		  .FooterRightPane { padding:0px 0px 0px 0px;margin:0px 0px 0px 0px; overflow:hidden; color:#5D5E54;float:right; width:256px; font-size:11px; line-height:13px;  white-space:nowrap;}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Style for clearing Div's*/		  .ClearFloat {clear:both;height:0px;font-size:0px;line-height:0px;}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Breadcrumb text syle */			  .BreadcrumbPane { background:url(images/BreadcrumbBg.gif) left top repeat-x #e9e9e9; padding:5px 10px 5px 15px; color:#000000;font-size:12px;}
+									  .breadcrumb {font-weight: bold;color: #000000;text-align:left;text-decoration:none; font-size:12px; vertical-align:top;font-family:Arial;}
+									  A.breadcrumb:link, A.breadcrumb:visited, A.breadcrumb:active {font-weight: bold;font-size:12px;color: #678E17;font-family:Arial;text-align:left;text-decoration:underline;}
+									  A.breadcrumb:hover {font-weight: bold;font-size:12px;color: #1F375E;text-align:left;text-decoration:none;font-family:Arial;}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*=====================================================================*/
+/* Skin Properties                                                     */
+/*=====================================================================*/
+
+/* Login hover styles*/
+.Login,A.Login:link,A.Login:visited,A.Login:active {color:#ffffff; font-size:12px;font-weight: bold;text-decoration:none;font-family:Arial; padding:0 5px;}
+A.Login:hover {color:#000000; font-size:12px;font-weight: bold;text-decoration:none;font-family:Arial; padding:0 5px;}
+
+/* User hover styles*/
+.User,A.User:link,A.User:visited,A.User:active {color:#ffffff; font-size:12px;font-weight: bold;text-decoration:none;font-family:Arial; padding:0 5px;}
+A.User:hover {color:#000000; font-size:12px;font-weight: bold;text-decoration:none;font-family:Arial; padding:0 5px;}
+
+/*Date Styles*/
+.Date { color:#FFFFFF; font-size:11px;text-decoration:none;}
+
+/* Footer text syle */
+.Footer,A.Footer:link,A.Footer:visited,A.Footer:active {font-weight:normal;color:#5D5E54;text-decoration:none;padding:0px 2px;}
+A.Footer:hover {font-weight:normal;color:#6E9519!important;text-decoration:none; padding:0px 2px;}
+
+/* Copyright text syle */
+.Copyright,A.Copyright:link,A.Copyright:visited,A.Copyright:active {font-weight:normal;text-transform:none;color:#5D5E54;text-decoration:none;}
+A.Copyright:hover {color: #FFFFFF;}
+/* Link Pane text syle */
+.Link {	font-size: 11px; color: #5D5E54; text-decoration:none;}
+A.Link:link, A.Link:visited, A.Link:active {font-size: 11px; color: #5D5E54; text-decoration:none;}
+A.Link:hover {	font-size: 11px;	color: #6E9519;	text-decoration:none;}
+
+/* Host Pane text syle */
+.Host {	font-size: 10px; text-transform:uppercase;color: #FFFFFF;	text-decoration:none;}
+A.Host:link, A.Host:visited, A.Host:active {	font-size: 10px;	color: #ffffff;	text-decoration:none;}
+A.Host:hover {	font-size: 10px;	color: #ffffff;	text-decoration:underline;}
+
+
+/*=====================================================================*/
+/* Template Text and Link Styles Based on Colors                       */
+/*=====================================================================*/
+/* Default font style Style */
+body, html, TH, TD, td,  div , p, table { color: #000000;  font-size: 13px; font-weight: normal; text-decoration: none; font-family:Arial;}
+p { margin:0px; padding:0px 0px 8px 0px;}
+td { text-align:left;}
+/*Default List style */
+
+ul{ padding:0px 0px 0px 0px; margin:0px 0px 0px 20px; vertical-align:top;} 
+li { list-style:url(images/ListArrow.gif) disc outside!important; padding:0px 3px 0px 0px; margin:0px 0px 0px 0px; vertical-align:middle;}
+ol { padding:0px 0px 0px 0px; margin:0px 0px 0px 25px; vertical-align:top;} 
+ol li {padding:0px 3px 0px 0px; margin:0px; list-style-type:decimal!important; list-style-image:none!important;}
+img { border:none;}
+br { margin:0px; padding:0px; height:1px;}
+/**/
+/*Default Font Color for White text */
+.WhiteText, .WhiteText TH, .WhiteText TD, .WhiteText td, .WhiteText div ,.WhiteText p, .WhiteText table , .WhiteText .Normal, .WhiteText  .normal, 
+.WhiteText .Head, .WhiteText .SubHead, .WhiteText .SubSubHead, .WhiteText h1, .WhiteText h2, .WhiteText h3, .WhiteText h4, .WhiteText h5, .WhiteText h6{ color:#FFFFFF;}
+.WhiteText a { color:#FFFFFF;text-decoration:underline;}
+.WhiteText a:hover { color:#FFFFFF; text-decoration:none;}
+
+/*Default Font Color for Blue Text */
+.BlueText, .BlueText TH, .BlueText TD, .BlueText td, .BlueText div ,.BlueText p, .BlueText table , .BlueText .Normal, .BlueText  .normal, 
+.BlueText .Head, .BlueText .SubHead, .BlueText .SubSubHead, .BlueText h1, .BlueText h2, .BlueText h3, .BlueText h4, .BlueText h5, .BlueText h6{ color:#567aba; font-size:11px!important;}
+.BlueText a { color:#567aba;text-decoration:none; font-size:11px;}
+.BlueText a:hover { color:#FFFFFF!important; text-decoration:none; font-size:11px;}
+/* Default link syle */
+A:Link, A:Visited, A:Active {color: #678E17;text-decoration: none;font-family:Arial;}
+A:Hover {color: #0d4988;text-decoration: none;font-family:Arial;}
+
+/* Black (Default color) */
+.Normal { color: #000000; font-family:Arial; font-size: 13px; font-weight: normal; line-height:normal;}
+A.Normal:link, A.Normal:visited, A.Normal:Active { color: #678E17; font-family:Arial; font-size: 13px; font-weight: normal; text-decoration: none; }
+A.Normal:Hover { color: #0d4988; font-family:Arial; font-size: 13px; font-weight: normal; text-decoration: none; }
+
+.NormalBold { color: #000000;  font-weight: bold; }
+A.NormalBold:link, A.NormalBold:visited, A.NormalBold:Active { color: #678E17;font-weight: bold; text-decoration: none; }
+A.NormalBold:Hover { color: #0d4988; font-weight: bold; text-decoration: none; }
+
+/*Extra Font color styles*/
+/* Blue */
+.BlueText, .BlueText a { color: #1a5e9d;font-weight: normal; text-decoration:none;}
+.BlueText a:Hover { color: #1a5e9d; font-weight: normal; text-decoration: none; }
+/* Orange */
+.OrangeText, .OrangeText a { color: #ff9c00;font-weight: normal; text-decoration:none;}
+.OrangeText a:Hover { color: #ff9c00; font-weight: normal; text-decoration: none; }
+/* Red */
+.RedText, .RedText a { color: #ac0000;font-weight: normal; text-decoration:none;}
+.RedText a:Hover { color: #ac0000; font-weight: normal; text-decoration: none; }
+/* Green */
+.GreenText, .GreenText a { color: #00ac35;font-weight: normal; text-decoration:none;}
+.GreenText a:Hover { color: #00ac35; font-weight: normal; text-decoration: none; }
+/* Gray */
+.GrayText, .GrayText a { color: #707070;font-weight: normal; text-decoration:none;}
+.GrayText a:Hover { color: #707070; font-weight: normal; text-decoration: none; }
+
+/*=====================================================================*/
+/* Template Text Headings                                              */
+/*=====================================================================*/
+
+/* H1 */
+H1 { color: #0d3276; font-size: 24px; font-weight: bold; padding:0px 0px 8px 0px; margin:0px;font-family:Arial;}
+A.H1:Link,A.H1:Visited,A.H1:Hover,A.H1:Active { color: #678E17; font-size: 24px; font-weight: bold; text-decoration: none; }
+
+/* H2 */
+H2 { color: #a01417; font-size: 22px; font-weight: bold; padding:0px 0px 8px 0px; margin:0px; font-family:Arial;}
+A.H2:Link,A.H2:Visited,A.H2:Hover,A.H2:Active { color: #678E17; font-size: 22px; font-weight: bold; text-decoration: none; }
+
+/* H3 */
+H3 { color: #8b9dbd; font-size: 20px; font-weight: bold; padding:0px 0px 8px 0px; margin:0px; font-family:Arial;}
+A.H3:Link,A.H3:Visited,A.H3:Hover,A.H3:Active { color: #678E17; font-size: 20px; font-weight: bold; text-decoration: none; }
+
+/* H4 */
+H4 { color: #666666; font-size: 18px; font-weight: bold;  padding:0px 0px 8px 0px; margin:0px;font-family:Arial;}
+A.H4:Link,A.H4:Visited,A.H4:Hover,A.H4:Active { color: #678E17; font-size: 18px; font-weight: bold; text-decoration: none; }
+/* H4 */
+H5 { color: #000000; font-size: 16px; font-weight: normal;  padding:0px 0px 8px 0px; margin:0px;font-family:Arial;}
+A.H5:Link,A.H5:Visited,A.H5:Hover,A.H4:Active { color: #678E17; font-size: 16px; font-weight: normal; text-decoration: none; }
+
+/* H6 */
+H6 { color: #a01417; font-size: 12px; font-weight: bold; padding:0px 0px 8px 0px; margin:0px; font-family:Arial;}
+A.H6:Link,A.H6:Visited,A.H6:Hover,A.H6:Active {font-size: 12px; color: #678E17; font-weight: bold; text-decoration: none; }
+
+/*=====================================================================*/
+/* Module Classes                                                      */
+/*=====================================================================*/
+/* Default Container Title Style */
+.Head { color: #000000; font-size: 13px; font-weight: bold; text-decoration: none;font-family:Arial; }
+A.Head:Link, A.Head:Visited, A.Head:Active { color: #678E17; font-size: 13px; font-weight: bold; text-decoration: none; }
+A.Head:Hover { color: #0d4988;}
+
+/* SubHead */
+.SubHead { color: #000000; font-size: 12px; font-weight: bold; text-decoration: none;font-family:Arial; }
+A.SubHead:Link, A.SubHead:Visited, A.SubHead:Active { color: #678E17; font-size: 12px; font-weight: bold; text-decoration: none; }
+A.SubHead:Hover { color: #0d4988;}
+
+/* Module title style used instead of Head for compact rendering by QuickLinks and Signin modules */
+.SubSubHead { color: #000000;font-weight: bold; text-decoration: none; text-transform:uppercase; font-size: 11px; font-family:Arial;}
+A.SubSubHead:Link, A.SubSubHead:Visited,  A.SubSubHead:Active { color: #678E17; font-size: 11px; font-weight: bold; text-decoration: none; }
+A.SubSubHead:Hover{color: #0d4988;}
+
+/* Text style for skin objects */
+.SkinObject { color: #000000; font-size: 11px; font-weight: normal; text-decoration: none; font-family:Arial;}
+A.SkinObject:Link, A.SkinObject:Visited, A.SkinObject:Active { color: #678E17; font-size: 11px; font-weight: normal; text-decoration: none; }
+ A.SkinObject:Hover {color: #0d4988;}
+/*=====================================================================*/
+/* Input and Other Admin Site Styles                                   */
+/*=====================================================================*/
+/* Normal Text Box */
+.NormalTextBox { color: #000000; background:#FFFFFF; font-family:Arial; font-size: 12px; font-weight: normal; vertical-align: middle; border: 1px solid #bec0bb;}
+td.NormalTextBox , span.NormalTextBox, table.NormalTextBox {padding: 0px;margin: 0px;	background:none;border:none;}
+
+/* Admin link styles */
+A.CommandButton:Link, A.CommandButton:Visited, A.CommandButton:Active {font-family:Arial; color:#678E17; font-size: 13px; cursor:pointer; font-weight: bold; text-decoration: none; background: none; border:none; padding:2px 3px 3px 4px; height: 20px; }
+A.CommandButton:Hover {font-family:Arial; color:#0d4988; font-size: 13px; font-weight: bold; text-decoration: none; cursor:pointer; background:none; border:none; padding:2px 3px 3px 4px; height: 20px; }
+
+/* button style for standard HTML buttons */
+.StandardButton, A.StandardButton:Link, A.StandardButton:Visited, A.StandardButton:Active {font-family:Arial; color:#678E17; cursor:pointer; font-size: 13px; font-weight: bold; text-decoration: none; background:none; border:none; padding:2px 3px 3px 4px; height: 20px; }
+A.StandardButton:Hover {font-family:Arial; color:#0d4988; font-size: 13px; font-weight: bold; text-decoration: none; cursor:pointer; background:none; border:none; padding:2px 3px 3px 4px; height: 20px; }
+
+/* New DataGrid DNN Class used in Admin interface */
+.DataGrid_Header { color: #333333; font-weight: bold; text-decoration: none; font-family:Arial;}
+.DataGrid_AlternatingItem { color: #000000;  font-weight: normal; text-decoration: none; font-family:Arial;}
+.DataGrid_Item { color: #333333; font-weight: normal; text-decoration: none;font-family:Arial; }
+/*=========================================================================================================================================================================================================================================================================================================================================================*/
+/* Module Action Menus */
+.ModuleTitle_SubMenu{border:1px solid #FFFFFF;}
+.ModuleTitle_SubMenu table {padding:0px; border:0px;}
+.ModuleTitle_SubMenu td{background:#8AAB41;	white-space: nowrap;border:none;border-bottom:1px solid #FFFFFF;color:#FFF!important;} 
+.ModuleTitle_MenuIcon {background-color:#8AAB41; border:none;padding: 0px 2px;}
+td.ModuleTitle_MenuItemSel , .ModuleTitle_MenuItemSel .ModuleTitle_MenuIcon{background-color: #FFE128;color: #fff!important;}
+.ModuleTitle_MenuBreak td { display:none;}
+.ModuleTitle_MenuBreak .ModuleTitle_MenuIcon{height:10px;background: #f8f4e6;}
+
+/**/
+.GrayBg { background:#ebeaea; padding:5px;}
+.GrayBg img, .GrayBg a img  { border:5px solid #ebeaea!important;}
+.GrayBg a:hover img  { border:5px solid #a01417!important;}
+
+/* 5 May 2009 */
+
+h1.headerText{
+	padding:0;
+	margin:0;
+	font:bold 28px/32px Helvetica, Arial, Helvetica, sans-serif !important;
+}
+
+h2.greenBgTitle1{
+	width:216px;
+	height:47px;
+	font-family:Helvetica, Arial, sans-serif; 
+	font-size:24px; line-height:47px; 
+	font-weight:normal; 
+	font-style:italic; 
+	color:#fff;
+	background:url(images/greenbg2.gif) 0 0 no-repeat;
+	margin: 0 auto;
+	padding:0 0 0 24px;
+}
+ul.leftlist{
+	font-weight:bold;
+	font-size:13px;
+	line-height:15px;
+	padding:0 0 0 0;
+	margin:0;
+	list-style-type:none !important;
+}
+ul.leftlist li{
+	padding:4px 0;
+	background:url(images/left-line.gif) 0 100% repeat-x;
+	list-style-type:none !important;
+}
+ul.leftlist li.nobg{
+	background:none;
+}
+ul.leftlist li a{
+	color:#4C6B0D;
+	background-color:inherit;
+	background:url(images/star-icon.gif) 0 2px no-repeat;
+	padding:0 0 0 24px;
+}
+ul.leftlist li a:hover{
+	color:#000;
+}
+
+/* New Product Panel style */
+
+img.newProductPic{
+	display:block;
+	float:left;
+	margin:0 15px 16px 0;
+}
+p.newProductText{
+	font-size:11px;
+	line-height:12px;
+	color:#8E8E8E;
+	background-color:inherit;
+	padding:0 0 0 0;
+	margin:0;
+}
+p.newProductText span{
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	line-height:14px;
+	color:#000;
+	background-color:inherit;
+	padding:0 0 4px 0;
+}
+p.newProductLink{
+	font-size:11px;
+	line-height:14px;
+	padding:0;
+	margin:0;
+}
+p.newProductLink a{
+	color:#5B9401;
+	background-color:inherit;
+	text-decoration:underline;
+}
+p.newProductLink a:hover{
+	text-decoration:none;
+}
+a.star{
+	margin:0 1px;
+	font-size:0;
+	line-height:0;
+}
+
+/* Top Call for Chat Style */
+
+p.chat{
+	font-size:18px;
+	line-height:20px;
+	color:#4E4E4E;
+	background-color:inherit;
+	padding:0 0 0 180px;
+	margin:0;
+}
+p.chat span{
+	font-size:12px;
+	line-height:14px;
+}
+
+
+
+/* DNNRAD Menu Styles */
+
+/* r.a.d.menu From T-worx.com */
+
+
+/*
+#FFCB0B
+#678E17
+#8AAB41
+*/
+/* menu styling */
+.MenuContainer
+{
+    border:0px solid #000;
+}
+.MenuControl
+{
+    border:0px solid #000;
+    padding:0px;
+    margin-top:1px;
+}
+.MenuRootItem
+{
+    border:0px solid #000;
+    padding:8px;
+    color:#fff;
+}
+
+.MenuRootItem.sel
+{background:#FFCB0B;}
+
+.SubMenuContainer
+{
+    border:0px solid #000;
+    background:#fff;
+    width:150px;
+}
+.SubMenuItem 
+{
+    padding:4px 20px 4px 9px!important;background:#8AAB41!important;color: #000!important;
+    border-top:1px solid #fff;
+    border-left:1px solid #fff;
+    border-right:1px solid #fff;
+}
+
+.MenuControl .icn
+{
+    display:none;
+}
+
+.MenuRootItem.hov
+{
+    background:#FFCB0B; 
+}
+.SubMenuItem.hov
+{
+    padding:4px 20px 4px 9px!important;background:#FFDC21!important;color: #000!important;
+}
+
+.MenuRootItem a, .MenuRootItem a:link, .MenuRootItem a:visited, .MenuRootItem a:active
+{
+    color:#fff;
+    font-weight:bold;
+}
+
+.MenuRootItem a:hover
+{
+    color:#FFF;
+    text-decoration:underline;
+}
+
+.SubMenuItem  a, .SubMenuItem a:link, .SubMenuItem a:visited, .SubMenuItem a:active
+{
+    color:#000;
+}
+
+
+.MenuRootItem a img,.SubMenuItem a img
+{
+    display:none;
+}
+
+.SubMenuContainer li
+{
+    margin-left:0px;
+}
