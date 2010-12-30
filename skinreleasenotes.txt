@@ -1,0 +1,14 @@
+<h3>Ecozany Skin Package</h3>
+<p class="Contributor">
+	Tracy Wittenkeller of T-Worx<br />
+	<a href="http://www.t-worx.com">http://www.t-worx.com</a><br />
+</p>
+<hr/>
+<div class="License">
+	<p class="Owner">
+		<h3>About Ecozany (Skin & Container Set)</h3>
+		<b>Verion 1.0.0 </b><br /><br />
+
+		For more information about the Ecozany project, or to check for the latest version, please visit the project on CodePlex at: <a href="http://ecozany.codeplex.com">http://ecozany.codeplex.com</a> .
+	</p>
+</div>

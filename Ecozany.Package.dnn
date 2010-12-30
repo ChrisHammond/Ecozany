@@ -1,0 +1,179 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="Ecozany.Skin" type="Skin" version="01.00.00">
+      <friendlyName>Ecozany</friendlyName>
+      <description>Ecozany skin description</description>
+      <owner>
+        <name>DotNetNuke</name>
+        <organization>DotNetNuke Corporation</organization>
+        <url>www.dotnetnuke.com</url>
+        <email>training@dnncorp.com</email>
+      </owner>
+      <license src="skinlicense.txt"></license>
+      <releaseNotes src="skinreleasenotes.txt"></releaseNotes>
+      <dependencies>
+        <dependency type="CoreVersion">05.02.00</dependency>
+      </dependencies>
+      <components>
+        <component type="File">
+          <files>
+            <file>
+              <name>skinlicense.txt</name>
+            </file>
+            <file>
+              <name>skinreleasenotes.txt</name>
+            </file>
+          </files>
+        </component>
+        <component type="Skin">
+          <skinFiles>
+            <skinName>Ecozany</skinName>
+            <basePath />
+            <skinFile>
+              <name>EcoZany_AdminPage.ascx</name>
+            </skinFile>
+            <skinFile>
+              <name>EcoZany_AdminPage.doctype.xml</name>
+            </skinFile>
+            <skinFile>
+              <name>EcoZany_AdminPage.jpg</name>
+            </skinFile>
+            <skinFile>
+              <name>thumbnail_EcoZany_AdminPage.jpg</name>
+            </skinFile>
+
+            <skinFile>
+              <name>EcoZany_InnerPage.ascx</name>
+            </skinFile>
+            <skinFile>
+              <name>EcoZany_InnerPage.doctype.xml</name>
+            </skinFile>
+            <skinFile>
+              <name>EcoZany_InnerPage.jpg</name>
+            </skinFile>
+            <skinFile>
+              <name>thumbnail_EcoZany_InnerPage.jpg</name>
+            </skinFile>
+
+            <skinFile>
+              <name>EcoZany_HomePage.ascx</name>
+            </skinFile>
+            <skinFile>
+              <name>EcoZany_HomePage.doctype.xml</name>
+            </skinFile>
+            <skinFile>
+              <name>EcoZany_HomePage.jpg</name>
+            </skinFile>
+            <skinFile>
+              <name>thumbnail_EcoZany_HomePage.jpg</name>
+            </skinFile>
+
+            <skinFile>
+              <name>skin.css</name>
+            </skinFile>
+          </skinFiles>
+        </component>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>portals/_default/skins/ecozany</basePath>
+            <resourceFile>
+              <name>SkinResources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+      </components>
+    </package>
+    <package name="Ecozany.Container" type="Container" version="01.00.00">
+      <friendlyName>Ecozany</friendlyName>
+      <description>Ecozany Container description.</description>
+      <owner>
+        <name>DotNetNuke</name>
+        <organization>DotNetNuke Corporation</organization>
+        <url>www.dotnetnuke.com</url>
+        <email>training@dnncorp.com</email>
+      </owner>
+      <license src="containerlicense.txt"></license>
+      <releaseNotes src="containerreleasenotes.txt"></releaseNotes>
+      <dependencies>
+        <dependency type="CoreVersion">05.02.00</dependency>
+      </dependencies>
+      <components>
+        <component type="File">
+          <files>
+            <file>
+              <name>containerlicense.txt</name>
+            </file>
+            <file>
+              <name>containerreleasenotes.txt</name>
+            </file>
+          </files>
+        </component>
+        <component type="Container">
+          <containerFiles>
+            <containerName>Ecozany</containerName>
+            <basePath />
+            <containerFile>
+              <name>BlackTitle.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>BlackTitle.jpg</name>
+            </containerFile>
+            <containerFile>
+              <name>BlueTitleBar.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>BlueTitleBar.jpg</name>
+            </containerFile>
+            <containerFile>
+              <name>GrayBorderNoTitle.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>GrayBorderNoTitle.jpg</name>
+            </containerFile>
+            <containerFile>
+              <name>GreenTitleBig.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>headerBackground.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>headerBackground.jpg</name>
+            </containerFile>
+            <containerFile>
+              <name>LeftGreenPanel.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>NoTitleBottomPadding.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>NoTitleBottomPadding.jpg</name>
+            </containerFile>
+            <containerFile>
+              <name>NoTitleNoPadding.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>NoTitleNoPadding.jpg</name>
+            </containerFile>
+            <containerFile>
+              <name>SkyBlueTitle.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>SkyBlueTitle.jpg</name>
+            </containerFile>
+            <containerFile>
+              <name>Container.css</name>
+            </containerFile>
+          </containerFiles>
+        </component>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>portals/_default/containers/ecozany</basePath>
+            <resourceFile>
+              <name>ContainerResources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>
